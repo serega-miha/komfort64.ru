@@ -1,0 +1,63 @@
+
+/* bootstrap подключили, разметка и сброс шрифтов */
+@import "../libs/bootstrap5/bootstrap-reboot.min.css";
+@import "../libs/bootstrap5/bootstrap-grid.min.css";
+@import "components/header.css";
+@import "components/navbar.css";
+@import "components/gellery.css";
+@import "components/job.css";
+
+
+/*!importamnt используем для того чтобы 100% не перекрывать шрифты */
+.font1{
+    font-family: 'Playfair Display', serif !important;
+}
+
+.font2{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.font3{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.text-accent{
+
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #D4C17F;
+}
+
+a { text-decoration: none; }
+
+a:hover {
+    color: #D4C17F;
+    text-decoration: none;
+}
+
+
+/* Указываем стандартный шрифт и минимальная ширина*/
+body {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    min-width: 280px;
+    background-color: rgb(204, 70, 70);
+    /*overflow-x: hidden; исключаем прокрутку по сторне Х*/
+    overflow-x: hidden;
+    min-height: 500vh;
+}
+
+icon_phone{
+    width: 100;
+}
+
+
+section {
+    padding: 30 px 0;
+}

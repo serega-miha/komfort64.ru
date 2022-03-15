@@ -1,0 +1,33 @@
+.header{
+    /*background-size: cover; - растянуть на все ширину
+    background-repeat: no-repeat; - исключить повторение картинки*/
+    position: relative;
+    padding-top: 100px;
+    margin-top: 70px;
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*добавили паралакс эффект*/
+    
+      
+}
+
+.header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(180deg, #b9c7d8 11.98%, rgba(243, 248, 253, 0.38) 51.04%, #b9c7d8 92.19%);
+
+
+}
+
+.header__content {
+    position: relative;
+    z-index: 2;
+}
+
+
