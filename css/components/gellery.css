@@ -1,5 +1,6 @@
-body {
-  background: blue;
+.gallery {
+  background-color: beige;
+  max-height: 1500px;
 }
 
 .block-title {
@@ -7,38 +8,69 @@ body {
   font-family: 'Playfair Display', serif !important; ;
   font-size: 30px;
   text-align: center;
+  margin-top: 10px;
   }
 
 .wrapper-boxes {
   display: flex;
-  text-align: center;
+  
   flex-direction: row;
   flex-wrap: wrap;
-  width:80%;
+  width:100%;
   justify-content: space-around;
+ 
 
 
 }
 .box {
   margin: 20px;
-  
 
-  background-color: orange;
-  border-radius: 3px;
+ 
 }
 button {
-  width: 50%;
+  width: 40%;
   line-height: 40px;
   background-color: orange;
   border: 4px solid #fff;
   color: #fff;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  
+  border-radius: 10px;
+  height: 50px;
+  margin:0 auto;
+  margin-bottom: 20px;
+  display:block;
+  position: relative;
+  
+  
+	
+  
+  
+  
   
 }
 .img-box {
   max-width: 300px;
   max-height: 200px;
-  border-radius: 3px;
+  border-radius: 10px;
+  
+}
+.box-job-wrap {
+  margin-top: 30px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+
+.box-job-wrap a {
+  display: block;
+
+}
+
+.box-job-wrap:hover a {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
