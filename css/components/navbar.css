@@ -17,6 +17,7 @@ html,body{
     max-width: 1180px;
     margin: 0px auto;
     padding: 0px 10px;
+    
 }
 
 .header {
@@ -42,6 +43,7 @@ html,body{
     position: relative;
     display: flex;
     justify-content: space-between;
+    
     height: 80px;
     align-items: center;
 
@@ -52,10 +54,12 @@ html,body{
     overflow: hidden;
     position: relative;
     z-index: 3;
+    
 }
 .header__logo img {
     max-width: 100%;
     display: block;
+    
 }
 
 .header__burger {
@@ -68,6 +72,7 @@ html,body{
     display: flex;
     position: relative;
     z-index: 2;
+    
 }
 .header__list li {
     list-style: none;
@@ -75,9 +80,13 @@ html,body{
 }
 .header__link {
     color: azure;
+    
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
+    margin-top: 20px;
+    /* я добавил чтобы сместить влево меню*/
+    margin-right: 80px;
 }
 
 @media (max-width: 767px){
