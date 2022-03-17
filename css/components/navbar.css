@@ -57,8 +57,11 @@ html,body{
 
 }
 .phone {
+<<<<<<< HEAD
     position: absolute;
     margin-right: 95%;
+=======
+>>>>>>> 347564ff9f1dd54045baebc68374ae888a7ceefb
     font-size: 20px;
     z-index: 3;
     
@@ -70,27 +73,58 @@ html,body{
 .header__burger {
     display: none;
 }
+<<<<<<< HEAD
 
+=======
+.header__menu {
+    position: absolute;
+    
+    right: 50px;
+    display: block;
+}
+>>>>>>> 347564ff9f1dd54045baebc68374ae888a7ceefb
 
 .header__list {
     display: flex;
     position: relative;
     
+<<<<<<< HEAD
     z-index: 2;
    
+=======
+    
+  
+
+    
+>>>>>>> 347564ff9f1dd54045baebc68374ae888a7ceefb
 }
 .header__list li {
    
     list-style: none;
+<<<<<<< HEAD
     font-size: 20px;
     font-family: 'Raleway', serif !important;
     font-weight: 950;
     
     
+=======
+    margin: 0px 0px 0px 0px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+>>>>>>> 347564ff9f1dd54045baebc68374ae888a7ceefb
     
 }
 .header__link {
     color: rgb(26, 27, 26);
+<<<<<<< HEAD
+=======
+    
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+>>>>>>> 347564ff9f1dd54045baebc68374ae888a7ceefb
     margin-top: 20px;
     
     /* я добавил чтобы сместить влево меню*/
@@ -98,8 +132,18 @@ html,body{
 }
 .header-link-menu{
     color: rgb(26, 27, 26);
+<<<<<<< HEAD
     margin-left: 30px;
     
+=======
+    
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 30px;
+    text-decoration: none;
+    
+  
+>>>>>>> 347564ff9f1dd54045baebc68374ae888a7ceefb
 }
 
 
@@ -107,6 +151,7 @@ html,body{
 .header-link-menu:hover{
     text-decoration: none;
     color: rgb(0, 0, 0);
+<<<<<<< HEAD
     letter-spacing: 0.00em;
     transition: all .2s ease-out;
     padding: 10px;
@@ -125,6 +170,19 @@ html,body{
            
         }
 } 
+=======
+    
+    
+    letter-spacing: 0.05em;
+    transition: all .2s ease-out;
+    padding: 20px;
+
+
+    background-color: rgb(172, 180, 173);
+   
+}
+
+>>>>>>> 347564ff9f1dd54045baebc68374ae888a7ceefb
 
 @media (max-width: 819px){
     body.lock{
