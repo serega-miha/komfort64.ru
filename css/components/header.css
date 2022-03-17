@@ -45,13 +45,8 @@
 .header__content {
     position: relative;
     z-index: 2;
-    
-=======
-.header__content {
-    position: relative;
-    z-index: 2;
-    content: '';
->>>>>>> 347564ff9f1dd54045baebc68374ae888a7ceefb
+
+   
 
     
 }
