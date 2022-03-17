@@ -1,7 +1,6 @@
 .header-body{
     /*background-size: cover; - растянуть на все ширину
     background-repeat: no-repeat; - исключить повторение картинки*/
-<<<<<<< HEAD
    position: relative;
     padding-top: 30px;
     margin-top: 50px;
@@ -27,7 +26,6 @@
 
 }
 
-<<<<<<< HEAD
 
 @media (max-width: 990px){
     .header-body:before {
@@ -64,13 +62,8 @@
     font-family: 'Raleway', serif !important;
     
     font-size: 80px;
-<<<<<<< HEAD
     
     font-weight: 950;
-=======
-    line-height: 64px;
-    font-weight: 1500;
->>>>>>> 347564ff9f1dd54045baebc68374ae888a7ceefb
     color: #312846;
     text-align: center
 }
@@ -79,13 +72,8 @@
     font-family: 'Raleway', serif !important;
     font-weight: 500;
     font-size: 40px;
-<<<<<<< HEAD
     line-height: 45px;
     font-weight: 650;
-=======
-    line-height: 64px;
-    font-weight: 700;
->>>>>>> 347564ff9f1dd54045baebc68374ae888a7ceefb
     color: #312846;
     text-align: center
 }
@@ -102,7 +90,6 @@ align-items: center;
     font-weight: 500;
     font-size: 15px;
     color: #312846;
-<<<<<<< HEAD
     text-align: center;
     
 }
@@ -146,8 +133,3 @@ a.button9 {
   a.button9:active {
     top: 1px;
   }
-=======
-    text-align: center
-    
-}
->>>>>>> 347564ff9f1dd54045baebc68374ae888a7ceefb
