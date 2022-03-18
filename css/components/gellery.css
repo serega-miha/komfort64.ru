@@ -1,3 +1,7 @@
+*,*:before,*:after{
+  box-sizing: border-box;
+}
+
 .gallery {
   background-color: beige;
   max-height: 1500px;
@@ -12,32 +16,26 @@
   }
 
 .wrapper-boxes {
-  display: flex;
-  
-  flex-direction: row;
+  display:flex;
   flex-wrap: wrap;
-  width:100%;
-  justify-content: space-around;
- 
+  justify-content: center;
+ }
 
 
-}
-.box {
-  margin: auto;
 
- 
-}
+
 
 .img-box {
-  max-width: 300px;
+  max-width: 320px;
   max-height: 200px;
-  border-radius: 10px;
+  
   
 }
 .box-job-wrap {
-  margin-top: 30px;
-  overflow: hidden;
-  border-radius: 10px;
+  margin-top: 10px;
+  overflow:hidden;
+
+  
 }
 
 
@@ -72,3 +70,4 @@ button {
   position: relative;
 
 }
+
